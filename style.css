@@ -1,2 +1,63 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@font-face {
+    font-family: 'HankeGrotesk';
+    font-display: swap;
+    src: url('assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
+    format('truetype');
+}
+
+:root{
+    /*Your results card*/
+    --gradient-card-results: radial-gradient(circle, rgba(57,46,236,1) 0%, rgba(100,65,253,1) 26%);
+
+    /* Point */
+    --gradient-point: linear-gradient(180deg, rgba(70,51,237,1) 0%, rgba(95,63,252,1) 40%);
+    /* background Reaction */
+    --clr-background-reaction: #FFF6F5
+    /* Color font */
+    --clr-font-reaction:#CC8487
+    /* background Memory */
+    --clr-background-memory: #FFFBF2
+    /* Color font memory */
+    --clr-font-memory:#EACC90
+    /* background Verbal */
+    --clr-background-verbal: #F2FBFA
+    /* Color Font Verbal */
+    --clr-font-verbal:#67AB9E
+    /* background Visual */
+    --clr-background-visual: #F3F3FD
+    /* Color Font visual */
+    --clr-font-visual:#2A3378
+    /* Color Button */
+    --color-button :#303b59 ;
+    /* Color Fonts */
+    --color-light: #FFFFF4;
+    --color-dark:#222632
+
+    --font-family-default:'HankeGrotesk';
+    --fw-regular:500;
+    --fw-bold:700;
+    --fw-black:800;
+
+    --fs-400:1.125rem;
+    --fs-500:1.25rem;
+    --fs-600:1.5rem;
+    --fs-700:1.75rem;
+    --fs-800:2rem;
+    --fs-900:5rem;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    font: inherit;
+}
+
+img,
+svg{
+    display: block;
+    max-width: 100%;
+}
